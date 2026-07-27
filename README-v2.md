@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [✨ Key Features](#-key-features)
+- [ Key Features](#-key-features)
 - [💻 User Interface](#-user-interface)
 - [⚙️ System Requirements](#️-system-requirements)
 - [🚀 Installation & Setup](#-installation--setup)
@@ -22,7 +22,7 @@
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - 🎨 **Modern Dark UI**: Elegant and clean dark-mode interface powered by CustomTkinter.
 - 🎙️ **High-Accuracy Transcription**: Leverages OpenAI's `whisper-1` model to speech-to-text audio with exceptional accuracy.
