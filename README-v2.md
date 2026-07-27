@@ -1,42 +1,42 @@
-# 🎙️ NOTORA — AI-Powered Transcription & Study Assistant
+# NOTORA — AI-Powered Transcription & Study Assistant
 
 ![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![UI](https://img.shields.io/badge/GUI-CustomTkinter-darkblue.svg)
 ![AI](https://img.shields.io/badge/AI-OpenAI%20Whisper%20%2B%20GPT--4o--mini-orange.svg)
 
-**NOTORA** is a modern, intuitive cross-platform desktop application built with **CustomTkinter** and powered by **OpenAI** technologies (`whisper-1` and `gpt-4o-mini`). It automatically converts any audio or video file into structured study notes, quick executive summaries, or exam preparation practice questions.
+**NOTORA** is a modern, intuitive cross-platform desktop application built with **CustomTkinter** and powered by **OpenAI** technologies (`whisper-1` and `gpt-4o-mini`). It automatically converts any audio or video file into AI-generated study notes with multiple processing modes.
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [ Key Features](#-key-features)
-- [💻 User Interface](#-user-interface)
-- [⚙️ System Requirements](#️-system-requirements)
-- [🚀 Installation & Setup](#-installation--setup)
-- [📂 Project Structure](#-project-structure)
-- [🎯 How to Use](#-how-to-use)
-- [🧩 Technical Highlights](#-technical-highlights)
-- [📄 License](#-license)
+- [Key Features](#key-features)
+- [User Interface](#user-interface)
+- [System Requirements](#system-requirements)
+- [Installation & Setup](#installation--setup)
+- [Project Structure](#project-structure)
+- [How to Use](#how-to-use)
+- [Technical Highlights](#technical-highlights)
+- [License](#license)
 
 ---
 
-##  Key Features
+## Key Features
 
-- 🎨 **Modern Dark UI**: Elegant and clean dark-mode interface powered by CustomTkinter.
-- 🎙️ **High-Accuracy Transcription**: Leverages OpenAI's `whisper-1` model to speech-to-text audio with exceptional accuracy.
-- 🗜️ **Automatic File Compression (>25MB)**: If an audio/video file exceeds OpenAI's 25 MB size limit, NOTORA automatically compresses it using `pydub` and `FFmpeg`.
-- 🧠 **Three AI Processing Modes**:
+- **Modern Dark UI**: Elegant and clean dark-mode interface powered by CustomTkinter.
+- **High-Accuracy Transcription**: Leverages OpenAI's `whisper-1` model to speech-to-text audio with exceptional accuracy.
+- **Automatic File Compression (>25MB)**: If an audio/video file exceeds OpenAI's 25 MB size limit, NOTORA automatically compresses it using `pydub` and `FFmpeg`.
+- **Three AI Processing Modes**:
   - **Full Notes**: Generates complete, structured study material categorized by topics with clear bullet points, simple explanations, and a final summary.
   - **Quick Summary**: Condenses the entire recording into a high-level executive summary in under 10 lines.
   - **Examination Mode**: Creates a comprehensive question & answer bank tailored for self-testing key concepts.
-- ⚡ **Asynchronous Threading**: The graphical interface remains smooth and non-blocking while processing large media files and AI requests.
-- 💾 **Auto-Saving & Output Management**: Automatically exports generated notes to plain text (`.txt`) files inside the `/output` folder.
+- **Asynchronous Threading**: The graphical interface remains smooth and non-blocking while processing large media files and AI requests.
+- **Auto-Saving & Output Management**: Automatically exports generated notes to plain text (`.txt`) files inside the `/output` folder.
 
 ---
 
-## 💻 User Interface
+## User Interface
 
 Designed with a sleek, user-friendly dark theme:
 
@@ -48,7 +48,7 @@ Designed with a sleek, user-friendly dark theme:
 
 ---
 
-## ⚙️ System Requirements
+## System Requirements
 
 - **Python**: v3.8 or higher.
 - **FFmpeg**: Required for audio manipulation and compression via `pydub`.
@@ -56,7 +56,7 @@ Designed with a sleek, user-friendly dark theme:
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -90,7 +90,7 @@ The application includes built-in support for local FFmpeg executable paths.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 notora/
@@ -105,7 +105,7 @@ notora/
 
 ---
 
-## 🎯 How to Use
+## How to Use
 
 1. **Run the Application**:
    ```bash
@@ -121,7 +121,7 @@ notora/
 
 ---
 
-## 🧩 Technical Highlights
+## Technical Highlights
 
 - **Config Persistence**: Automatic management of `settings.json` so you only enter your API Key once.
 - **PyInstaller Compatibility**: Implements `resource_path()` for seamless binary bundling into a standalone `.exe` using PyInstaller.
@@ -129,6 +129,6 @@ notora/
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for full details.
