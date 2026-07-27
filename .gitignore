@@ -1,0 +1,17 @@
+# Configuración local con claves privadas
+settings.json
+
+# Archivos de salida y temporales generados por la app
+output/
+temp_*.mp3
+
+# Archivos de entorno virtual y caché de Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Archivos de construcción (si usas PyInstaller)
+build/
+dist/
+*.spec
