@@ -36,7 +36,7 @@ class TranscriptorApp(ctk.CTk):
         self.api_key = self.cargar_config()
 
         # ======================
-        # WINDOW CONFIG (PREMIUM)
+        # WINDOW CONFIG 
         # ======================
         # Set dark theme with blue accent color for modern appearance
         ctk.set_appearance_mode("dark")
@@ -61,7 +61,7 @@ class TranscriptorApp(ctk.CTk):
         main.pack(fill="both", expand=True, padx=30, pady=25)
 
         # ======================
-        # HEADER (MINIMAL PREMIUM)
+        # HEADER 
         # ======================
         # Create header container for logo and title
         header = ctk.CTkFrame(main, fg_color="transparent")
@@ -96,7 +96,7 @@ class TranscriptorApp(ctk.CTk):
         ).pack()
 
         # ======================
-        # CARD (PREMIUM PANEL)
+        # CARD 
         # ======================
         # Create main content card with rounded corners
         card = ctk.CTkFrame(
@@ -166,7 +166,7 @@ class TranscriptorApp(ctk.CTk):
         self.progress_bar.set(0)
 
         # ======================
-        # OUTPUT (PREMIUM PANEL)
+        # OUTPUT 
         # ======================
         # Display "Output" label
         ctk.CTkLabel(card, text="Output", font=("Arial", 14, "bold")).pack(pady=(10, 5))
